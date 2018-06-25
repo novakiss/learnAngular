@@ -1,0 +1,7 @@
+.word{
+  width: 200px;
+  height: 200px;
+  background-color: burlywood;
+  margin: 30px;
+  padding: 5px;
+}

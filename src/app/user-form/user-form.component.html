@@ -1,0 +1,9 @@
+<input [(ngModel)]="name" #txtusername>
+<h3 [ngStyle]="name.length%2===0?evenStyle:oddStyle">Name is : {{name}}</h3>
+<!--<div>{{txtusername.value | json}}</div>-->
+
+<div [class]="isHiglight?'circle':'square'"></div>
+
+<div [class.circle]="!isHiglight" [class.square]="isHiglight"></div>
+
+<div [ngClass]="currentClass"></div>
